@@ -1,4 +1,5 @@
 :root {
+
     /* Typography */
     --typography-main-white: #FAFAFA;
     --typography-light-white: #F5F5F5;
@@ -60,6 +61,12 @@
     font-family: 'Ambit', sans-serif;
   }
   
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* For Webkit Browsers (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
@@ -81,4 +88,10 @@
 /* Hover Effect on Thumb */
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #4e0cad, #1e5ecb);
+}
+
+@media (max-width: 768px) {
+  :root{
+    width: 178%;
+  }
 }

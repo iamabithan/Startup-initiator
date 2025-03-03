@@ -1,0 +1,46 @@
+.comming-soon-header{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.comming-soon-card-section{
+    padding: 43px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comming-soon-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .swiper-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .custom-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+  }
+  
+  .dot {
+    height: 12px;
+    background-color: #aaa;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer-container{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

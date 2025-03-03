@@ -26,7 +26,17 @@
 
 .image1 {
     width: 100%;
-    /* margin-bottom: 50px; */
+    margin-bottom: 120px;
     /* max-width: 500px;
     margin-top: 20px; */
+}
+
+@media (max-width: 768px) {
+    #slogan{
+        font-size: 34px;
+    }
+
+    .image1{
+        margin-bottom: 24;
+    }
 }
