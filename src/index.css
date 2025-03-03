@@ -1,0 +1,84 @@
+:root {
+    /* Typography */
+    --typography-main-white: #FAFAFA;
+    --typography-light-white: #F5F5F5;
+    --typography-main-black: #0B0B0B;
+    --typography-dark-grey: #606077;
+    --typography-medium-grey: #8D8DA4;
+    --typography-light-grey: #B5B5BA;
+  
+    /* Icons */
+    --icons-green: #A3CD7E;
+    --icons-peach: #FFB8A2;
+    --icons-light-cyan: #C4F0FB;
+    --icons-light-yellow: #F8F0B4;
+    --icons-light-blue: #8DA6E4;
+    --icons-purple: #8A82F4;
+    --icons-abstract-white: #FAFAFA;
+    --icons-default-white: #FFFFFF;
+    --icons-active-black: #171717;
+  
+    /* Input Fields */
+    --input-dark: #252737;
+    --input-placeholder: #606077;
+    --input-label: #8D8DA4;
+  
+    /* Buttons */
+    --button-gradient: linear-gradient(90deg, #7468FC 0%, #A7A0F8 45%, #A7A0F8 65%, #7468FC 100%);
+    --button-gradient-hover: linear-gradient(90deg, #A7A0F8 0%, #7468FC 45%, #7468FC 65%, #A7A0F8 100%);
+    --button-primary-purple: #8A82F4;
+    --button-primary-text: #0B0B0B;
+    --button-secondary-white: #FAFAFA;
+    --button-tertiary-text: #A8A8A8;
+    --button-chat-prompt: #8D8DA4;
+  
+    /* Background */
+    --background-dashboard: #0D0D0D;
+    --background-onboarding: #171717;
+  
+    /* Glass Effect */
+    --glass-stroke: #FFFFFF1A;
+    --glass-fill: #FFFFFF0D;
+  
+    /* Cards */
+    --cards-color: #2A2A2A;
+  
+    /* Gradients */
+    --gradient-card-circle: #8A82F4;
+    --gradient-text: #A3CD7E;
+    --gradient-linear: #171717;
+  }
+  
+  @font-face {
+    font-family: 'Ambit';
+    src: url('/fonts/Ambit-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Ambit', sans-serif;
+  }
+  
+
+/* For Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light background */
+  border-radius: 10px;
+}
+
+/* Scrollbar Thumb (The draggable part) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6a11cb, #2575fc); /* Gradient color */
+  border-radius: 10px;
+}
+
+/* Hover Effect on Thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #4e0cad, #1e5ecb);
+}

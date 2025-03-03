@@ -1,0 +1,32 @@
+.hompage-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    flex-direction: column;
+    gap: 10px;
+    /* z-index: 10px; */
+    text-align: center;
+}
+
+#slogan {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+#company-name {
+    color: var(--button-primary-purple);
+}
+
+#tagline {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--typography-dark-grey);
+}
+
+.image1 {
+    width: 100%;
+    /* margin-bottom: 50px; */
+    /* max-width: 500px;
+    margin-top: 20px; */
+}

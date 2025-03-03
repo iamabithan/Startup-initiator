@@ -1,0 +1,27 @@
+.nav-bar{
+    height: fit-content;
+    padding: 24px 64px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index: 999px;
+}
+
+.logo{
+    width: 135px;
+    height: 40px;
+}
+
+.button-container{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 70px;
+    display: flex;
+    height: fit-content;
+    padding: 16px 57px;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    font-size: 14px;
+}
