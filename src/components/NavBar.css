@@ -71,6 +71,10 @@
     font-size: 16px;
 }
 
+.get-started-btn{
+    height: 24px !important;
+    font-size: 12px !important;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .button-container {

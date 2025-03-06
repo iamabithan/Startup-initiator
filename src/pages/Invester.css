@@ -1,0 +1,44 @@
+.investers-container {
+    padding: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inverster-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .header-mini {
+    font-size: 16px;
+    color: #A7A0F8;
+  }
+  
+  .header-header {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  /* Flexbox row layout */
+  .investers-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Ensure responsiveness */
+  @media (max-width: 768px) {
+    .investers-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

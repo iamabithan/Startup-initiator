@@ -1,0 +1,45 @@
+.container-join{
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-community-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 56px;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    border-bottom: none;
+    
+    /* Linear Gradient Background */
+    background: linear-gradient(
+        to bottom, 
+        rgba(255, 255, 255, 0.05) 0%, 
+        rgba(255, 255, 255, 0) 100%
+    );
+
+    /* Drop Shadows (Only on the top, no bottom shadow) */
+    box-shadow: 
+        0px -9px 9px rgba(233, 223, 255, 0.3),  /* Light shadow on top */
+        0px -9px 9px rgba(167, 160, 248, 0.5);  /* Stronger shadow on top */
+    
+    
+}
+
+
+
+
+.join-community-header{
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+.join-community-tagline{
+    color: var(--typography-medium-grey);
+    font-size: 16px;
+}

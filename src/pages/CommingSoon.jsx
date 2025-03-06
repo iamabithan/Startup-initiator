@@ -76,7 +76,7 @@ const CommingSoon = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div>
+    <div className="comming-soon">
       <div className="comming-soon-header">
         <a style={{ fontSize: "36px", fontWeight: "semi-bold" }}>Coming soon</a>
         <a style={{ fontSize: "20px", fontWeight: "normal", color: "#667085" }}>
