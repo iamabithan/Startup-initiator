@@ -6,7 +6,7 @@ import "./ChatBot.css";
 import icon from "../assets/icons/vector.png";
 import icon1 from "../assets/icons/Vector1.png";
 import icon2 from "../assets/icons/Vector2.png";
-import icon3 from "../assets/icons/Vector3.png";
+import icon3 from "../assets/icons/vector3.png";
 
 const ChatBot = () => {
   const [query, setQuery] = useState("");
